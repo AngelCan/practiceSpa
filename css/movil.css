@@ -1,18 +1,48 @@
-@media screen and (max-whidt: 400px){
-    .area{
-        max-width: 400px;
-        margin-left: 0rem;
+@media screen and (max-width: 400px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        align-items: center;
     }
-    .menu{
+    .navbar a{
+        font-size: 5rem;
+    }
+    .nav-options a{
+        border: 2px solid var(--tertiary-color);
+        border-style: none none dashed none;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fondo button{
+        width: 150px;
+    }
+    .whiteSection{
+        display: flex;
+        flex-flow: column-reverse;
+    }   
+    .image figure img{   
+        border-radius: 10px;
         max-width: 400px;
     }
-    .options{
+    .thirdSection{
+        display: flex;
+        flex-flow: column;
+    }
+    .image2 figure img{   
+        border-radius: 10px;
         max-width: 400px;
     }
-    .optionscuadro{
-        max-width: 400px;
+    .cardArea{
+        display: inline-block;
+        flex-flow: column;
+        justify-content: center;
     }
-    .optionscuadro a{
-        outline: solid;
+    .card{
+        margin-top: 10px;
     }
 }
+
