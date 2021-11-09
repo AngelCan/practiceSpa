@@ -37,8 +37,6 @@ body {
     font-family: var(--font-regular);
     font-size: 18px;
 }
-
-
 header , section {
     max-width: 1200px;
     margin: 0 auto;
