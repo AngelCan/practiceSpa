@@ -1,48 +1,44 @@
-.area{
-    font-family: 'Roboto', sans-serif;
-    max-width: 1600px;
-    margin-left: 10rem;
-    background-color: #FDF9F0;
-    display: inline-block;
-}
 /*MENU*/
-.menu{
+
+.nav-container{
     display: flex;
-    align-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
 }
-.logoscuadro{
+
+.navbar {
     display: flex;
-    align-content: space-between;
+    flex-flow: row wrap;
+    gap: 20px;
+    
 }
-.logo{
-    padding-left: 10px;
-}
-.logos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
-    padding-right: 10px;
-    margin-left: 1000px;
-}
-.options{
-    display: flex;
-    margin-left: 100px;
-    align-content: space-around;
-}
-.optionscuadro{
-    padding: 10px;
-    align-content: center;
-    text-align: center;
-    background-color: #F2DEA0;
-    outline: solid;
-    width: 74rem;
-    height: 20px;
-}
-.optionscuadro a{
+
+.navbar a{
+    font-size: 30px;
     color: black;
+}
+.nav-container  img{
+    max-width: 200px;
+    height: 150px;
+}
+
+.nav-options {
+    border: 2px solid var(--tertiary-color);
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.items a{
     text-decoration: none;
-    text-align: center;
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: #000;
 }
 /*First section*/
 .fondo{
@@ -53,6 +49,7 @@
     border-top: 10rem;
     padding-top: 10rem;
     color: white;
+    height: 650px;
 }
 .fondo button{
     font-family: 'Roboto', sans-serif;
@@ -69,8 +66,6 @@
 }
 /*Second section*/
 .whiteSection{
-    margin-left: 10rem;
-    margin-right: 10rem;
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-content: space-around;
@@ -87,8 +82,6 @@
 }
 /*Third section*/
 .thirdSection{
-    margin-left: 10rem;
-    margin-right: 10rem;
     font-family: 'Roboto', sans-serif;
     align-items: flex-start;
     display: flex;
@@ -102,15 +95,12 @@
 }
 /*Final section*/
 .cardArea{
-    margin-left: 10rem;
-    margin-right: 10rem;
     font-family: 'Roboto', sans-serif;
     
     display: flex;
     align-content: space-around;
 }
 .card{
-    margin-left: 5rem;
     background-color: #F2DEA0;
     max-width: 400px;
     text-align: center;
@@ -140,15 +130,10 @@
 }
 /*Footer*/
 .footerarea{
-    margin-left: 10rem;
-    margin-right: 10rem;
     align-content:center;
     text-align: center;
 }
 .cuadro{
-    align-content: center;
-    text-align: center;
-    background-color: #D93682;
-    width: 94rem;
-    height: 20px;
+    width: 100%;
+    border-top: 10px solid #D93682;
 }

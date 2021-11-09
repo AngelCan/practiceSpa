@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+:root{
+    --main-color: #D93682;
+    --secundary-color: #FDF9EE;
+    --tertiary-color: #000;
+
+    --font-bold: 'Roboto-Bold';
+    --font-regular: 'Roboto-Regular';
+    --font-medium: 'Roboto-Medium';
+}
+
+body {
+    background-color: var(--secundary-color);
+    font-family: var(--font-regular);
+    font-size: 18px;
+}
+
+
+header , section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
